@@ -1,0 +1,121 @@
+body,html{
+    width:100%;
+    overflow: hidden;
+    
+}
+.content-image{
+    background-image: url("galaxy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: border-box;
+}
+.nav{
+    padding-left: 2px;
+    width:90%;
+    display: flex;
+   
+}
+.logo{
+    padding-left: 1%;
+    width:30%;
+    
+}
+.logo img{
+    background-color: rgb(71, 67, 67);
+    width:100px;
+    border-radius: 40%;
+}
+.link{
+    width:calc(100% - 30%);
+    align-items: center;
+    text-align: right;
+    text-decoration: none;
+
+}
+.link a{
+    color:darkorchid;
+    border-bottom: none;
+}
+.link a:hover{
+    color:darksalmon;
+}
+.details{
+    padding-bottom: 4%;
+    margin-top: 10%;
+    padding-top: 3%;
+    display: flex;
+    gap: 5px;
+    width:90%;
+    
+    
+
+}
+.left{
+    width:70%;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    padding-left: 4%;
+   
+}
+.left ul{
+    display:flex;
+   
+    gap: 30px;
+
+}
+.left ul li{
+    gap:30px;
+    list-style-type: square white;
+
+}
+.left a{
+    color:darkorchid;
+    border-bottom: none;
+}
+.left a:hover{
+    color:darksalmon;
+    border-bottom: darkseagreen 1px solid;
+}
+.body{
+    align-content: center;
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 8%;
+
+}
+.content{
+    padding-top: 10%;
+    width: 100%;
+
+    text-align: center;
+}.content h1{
+    color:white;
+    font-size:45px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.content p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+    text-underline-position: below blue;
+    color:silver;
+}
+.content p:last-child{
+    color:red;
+    font-family: cursive;
+}
+.content p:last-child:hover{
+    text-decoration-line: underline;
+    text-decoration-color:darkturquoise;
+    transition: 2s;
+    color:mediumturquoise;
+}
